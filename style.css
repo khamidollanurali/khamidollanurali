@@ -1,0 +1,208 @@
+body {
+   background: linear-gradient(90deg, #FDDA04, #E4F963);
+   background-size: cover;
+   width: 99.5%;
+ }
+ a
+ {
+     text-decoration: none;
+ }
+ #block
+ {
+     background-color: white;
+     width: 400px;
+     position: relative; top:65px;   
+     padding: 10px;
+     border-radius: 25px;
+     height: 550px;
+     box-shadow: 0 0 18px rgba(0,0,0,0.4);  
+     margin-bottom: 150px;
+ }
+#first
+ {
+     font-family: calibri;
+     font-size: 60px;
+     color: #FDDA04;
+ }
+ #firsth3
+ {
+     font-family: calibri;
+     font-size: 21px;
+     color: gray;
+     position: relative; bottom: 47px;right: 35px;
+ }
+ .reg
+ {
+     width: 340px;
+     height: 30px;
+     margin-top: 10px;
+     position: relative; bottom: 40px;
+     border-radius: 7px;
+     font-family: calibri;
+ }
+ 
+ #robot
+ {
+     font-family: calibri;
+     font-size: 20px;
+     position: relative; bottom: 35px;
+ }
+ #sub
+ {
+     width: 340px;
+     height: 50px;
+     position: relative; bottom: 40px;
+     border-radius: 7px;
+     background-color: #555555;
+     color: white;
+     font-family: tahoma;
+     font-size: 25px;
+ }
+ #sub:hover
+ {
+     background-color: #FDDA04;
+     font-size: 28px;
+     width: 341px;
+     height: 51px;
+     transition: 0.4s;
+ }
+ #res
+ {
+     background-color: white;
+     font-family: calibri;
+     position: relative; bottom: 25px;
+     border-radius: 4px;
+ }
+ #res:hover
+ {
+     background-color: red;
+     color: white;
+     width: 12%;
+     height: 15%;
+     transition: 0.4s;
+ }
+.menu:nth-child(4) {
+   color: #FDDA04;
+}
+
+
+
+#Users {
+   display: none;
+}
+#Users p{
+   text-align: left;
+   padding-left: 15px;
+   font-family:  calibri;
+   font-size: 18px;
+}
+#Head_user {
+   font-family:  'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   color: #444444;
+   padding-top: 15px
+}
+#line1 {
+   width: 200px;
+   border: 4px solid #FDDA04;
+}
+#line2 {
+   width: 600px;
+   border: 1px solid #eeeeee;
+}
+
+.alert {
+   width: 100px;
+   height: 100px;
+   background-color: black;
+}
+h6 {
+   color: white;
+   font-family:  calibri;
+   font-size: 25px;
+}
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Ubuntu:wght@500&display=swap');
+header {
+   width: 100%;
+   height: 120px;
+   background-color: white;
+}
+a {
+   text-decoration: none;
+}
+#logo {
+   height: 100px;
+   position: relative; bottom: 17px;
+}
+nav, #logo {
+display: inline-block;
+}
+.menu {
+   font-family:  'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   color: black;
+   position: relative; top: 69px;
+   margin-left: 17px;
+}
+#menu1 {
+   margin-left: 190px;
+}
+.menu:hover {
+   color: #FDDA04;
+   transition: 0.3s;
+}
+#reg {
+   position: relative; left: 520px;
+}
+
+
+footer {
+   width: 100%;
+   height: 400px;
+   background-color: black;
+   margin-top: 70px;
+}
+.foot {
+   display: inline-block;
+}
+#logo2 {
+   width: 150px;
+   padding-top: 35px;
+   padding-left: 77px;
+}
+h2 {
+   color: white;
+   font-family:  'Ubuntu', sans-serif;
+   font-size: 21px;
+   padding-left: 77px;
+}
+h3 {
+   color: #E0E0E0;
+   font-family:  'Ubuntu', sans-serif;
+   font-size: 15px;
+   padding-left: 77px;
+   cursor: pointer;
+}
+h3:hover {
+   color: #FDDA04;
+   transition: 0.3s;
+}
+#line3 {
+   width: 1350px;
+   color: gray; 
+   position: relative; top: 54px;
+}
+#yellow {
+   color: #FDDA04;
+}
+#reserved {
+   position: relative; top: 63.5px;
+   cursor: default;
+}
+#reserved:hover {
+color: #E0E0E0;
+}
